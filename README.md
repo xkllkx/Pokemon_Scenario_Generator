@@ -4,12 +4,13 @@ The application is divided into two main parts:
 
 ### Character Info Edit
 Allows users to edit the character's name and HP.
-![image](https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w_model.jpg)![image](https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w.png)
+
+<img src="https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w_model.jpg" width="45%" height="45%"><img src="https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w.png" width="45%" height="45%">
 
 ### Animation Generate
 Continues from the first part to progressively generate multiple game scenes and create a game animation.
-![animation](https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/animation_generate/test.gif)
 
+<img src="https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/animation_generate/test.gif" width="90%" height="90%">
 # Installation
 ```bash
 pip install pillow opencv-python
