@@ -2,7 +2,7 @@
 This repository demonstrates using PIL and OpenCV to create a Pokémon game scenario generator.
 The application is divided into two main parts:
 
-### Character Info Edit [^1]
+### Character Info Edit [^1].
 Allows users to edit the character's name and HP.
 ![image](https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w_model.jpg)![image](https://github.com/xkllkx/Pokemon_Scenario_Generator/blob/main/character_info_edit/f_w.png)
 
@@ -16,7 +16,7 @@ pip install pillow opencv-python
 ```
 
 # How to use this repo
-## Character Info Edit [^1]
+## [^1]:Character Info Edit
 ### User define variable
 - Font
 ```python
@@ -56,7 +56,7 @@ im.save("f_w.png","png")
 python T2P_PIL_finish.py
 ```
 
-## Animation Generate [^2]
+## [^2]:Animation Generate
 ### User define variable
 - As mentioned above
 
