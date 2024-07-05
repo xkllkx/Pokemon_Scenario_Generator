@@ -16,7 +16,48 @@ pip install pillow opencv-python
 ```
 
 # How to use this repo
-Run the script to start the Pokémon game scenario generator.
+## Variable define
+- Font
+```python
+font = ImageFont.truetype("Silver.ttf", 60)
+```
+
+- Character model pick
+```python
+im = Image.open("f_w_model.jpg")
+```
+
+- Character HP
+```python
+player1_start_XY = [976,268] # XY # main character HP left-coor
+player1_end_XY = [751,268] # left
+
+player2_start_XY = [403,63] # XY # opponent character HP left-coor
+player2_end_XY = [180,63] # left
+
+# only player1 need HP num
+num_start_XY = [868,279] # left top
+
+player1_full_blood = 20
+player1_current_blood = 10
+
+player2_full_blood = 20
+player2_current_blood = 15
+```
+
+- Output Scenario (png)
+```python
+im.save("f_w.png","png")
+```
+
+## Character Info Edit
+Run T2P_PIL_finish.py to generate single single Pokémon game scenario.
 ```bash
-python example.py
+python T2P_PIL_finish.py
+```
+
+## Animation Generate
+Run picture_2_movie_final.py to generate single single Pokémon game scenario.
+```bash
+python picture_2_movie_final.py
 ```
