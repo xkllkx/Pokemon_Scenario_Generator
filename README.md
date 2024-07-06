@@ -1,5 +1,5 @@
 # Pokemon_Scenario_Generator
-This repository demonstrates using PIL and OpenCV to create a Pokémon game scenario generator.
+This repository demonstrates using **Pillow** and **OpenCV** to create a Pokémon game scenario generator.
 The application is divided into two main parts:
 
 ### Character Info Edit
